@@ -1,0 +1,35 @@
+h1 {
+text-align: center;
+ }
+
+ footer {background-color: black;
+ 	color: white;
+ 	border-radius: 25px}
+ p{
+ 	text-align: center;
+ 	display: inline-grid;
+ 	}
+ 	h1 {background-color: black;
+ 	color: white;
+ 	border-radius: 25px}
+ 	h2 {text-align: center;}
+ 	h3 {text-align: center;}
+ 	body {text-align: center;
+ 		background-color: darkgrey;
+ 			font-family :arial; color: black;
+ 	}
+ 
+ 	#contact {text-align: center;} 
+ .DivisionOne {background-color: black;
+ 	color: white;
+ 	border-radius: 25px}
+ .left {text-align: center;
+ 	font-family: italic}
+ a{color: black;} ::before {content:}
+ a:hover{color: dodgerblue;}
+ @media (min-width: 600px){}
+li {
+list-style-type: none;
+font-family: italic
+}
+section {margin: 1%;}
