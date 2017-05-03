@@ -4,9 +4,9 @@
         </title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <link rel="stylesheet" href="stylesheet.css">
+        <link rel="stylesheet" href="stylesheet.css"> <!-- I linked in the CSS, bootstrap and the image I used in the center of my page. I did this because without having linked it the index would not be able to retrieve information from the other pages -->
 </head>
-<body>
+<body onload = "GetDate()">
     <h1>Zakariya Ali</h1>
     <h2>Joskos Engineer</h2>
     <DIV class="left">
@@ -65,26 +65,24 @@
     <br />
         <div class="container">
             <div class="row">
-                <section id="Contact class" class="col-xs-2 col-xs-offset-5">
-                    <label>Name</label>
-                    <input>
-                    <br />
-                    <br />
-                    <label>Email</label>
-                    <input>
-                    <br />
-                    <br />
-                    <label>Message</label>
-                    <input>
-                    <br />
+                <section id="Contact class" class="col-xs-2 col-xs-offset-5"> <!-- I chose this framework as it is very user friendly -->
+                  <form method="POST" action="http://formspree.io/zakiali@live.co.uk">
+  <input type="text" name="name" placeholder="Your email">
+  <textarea name="message" placeholder="Your message"></textarea>
+  <button type="submit">Send</button>
+</form>
               </section>
             </div>
   		</div>
-    <button name="send form" style="margin-bottom: 1%;">Send Form</button>
+
     
     <footer style ="margin: 2%;">
-        <p>Created by Zakariya Ali - 2017
-            <p>
+
+
+        <p id = "Footer"> Created by Zakariya Ali - 
+<p/>
     </footer>
+    <script src = "Javascript.js">
+    </script>
 </body>
 </html>
